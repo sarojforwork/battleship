@@ -109,7 +109,6 @@ public class BattleShip implements Game {
 		int i;
 		char a;
 
-		//
 		List<Coordinate> coordinates = new ArrayList<Coordinate>(); 
 		for(i =  xcoordinate; i< incrementXValue;i++){
 			{
