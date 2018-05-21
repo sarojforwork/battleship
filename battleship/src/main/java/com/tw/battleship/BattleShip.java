@@ -131,6 +131,7 @@ public class BattleShip implements Game {
 		//while player can fire missiles
 		//check playerName.ifhit(), launchMissile(), hasMissiles(), hasShips();
 
+		//checking to see if class file gets commited
 		Player currentPlayer = p1;
 		Player opponent = p2;
 		/*		while(true) {
