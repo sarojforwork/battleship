@@ -46,8 +46,8 @@ public class BattleShip implements Game {
 			setPlayerInformation(playerData, p1, p2);
 		}
 		//set Missiles for each player
-		p1.setMissiles(Arrays.asList(scanner.nextLine().split("\\s")));
-		p2.setMissiles(Arrays.asList(scanner.nextLine().split("\\s")));
+		//p1.setMissiles(Arrays.asList(scanner.nextLine().split("\\s")));
+		//p2.setMissiles(Arrays.asList(scanner.nextLine().split("\\s")));
 		scanner.close();
 	}
 
@@ -131,12 +131,12 @@ public class BattleShip implements Game {
 		//first turn 
 		//while player can fire missiles
 		//check playerName.ifhit(), launchMissile(), hasMissiles(), hasShips();
-		
+
 		Player currentPlayer = p1;
 		Player opponent = p2;
-		while(true) {
-			if(curren)
-			
+		/*		while(true) {
+			//if(curren)
+
 			if(currentPlayer.hasMissiles()) {
 				Coordinate fireCoordinate = currentPlayer.launchMissile();
 				if(opponent.hitShip(fireCoordinate)) {
@@ -147,12 +147,12 @@ public class BattleShip implements Game {
 					currentPlayer = temp;
 				}				
 			} else {
-				
+
 			}
 		}
-
+		 */
 		String results = "";
-		Iterator<String> p1Iterator = p1.getMissiles().iterator();
+		/*Iterator<String> p1Iterator = p1.getMissiles().iterator();
 		Iterator<String> p2Iterator = p2.getMissiles().iterator();
 
 		while(true)
@@ -200,6 +200,7 @@ public class BattleShip implements Game {
 			}
 
 		}
+		 */
 
 		return results;
 	}
